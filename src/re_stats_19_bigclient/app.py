@@ -12,6 +12,8 @@ def authent():
     return "hello the world"
 
 @app.route('/players')
-def playersProcess():
+def players_process():
     return players
+if __name__ == '__main__':
+    app.run()
 

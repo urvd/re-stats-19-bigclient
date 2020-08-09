@@ -1,5 +1,5 @@
 import unittest
-from tests_tests.test_example_2 import RandomTest2
+from tests.tests_tests.test_example_2 import RandomTest2
 from tests.tests_tests.test_skeleton import RandomTest
 
 suite = unittest.TestSuite()

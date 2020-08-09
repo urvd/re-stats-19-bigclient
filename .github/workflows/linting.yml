@@ -1,0 +1,16 @@
+name: Linting
+
+on:
+  push:
+  branches:
+    - master
+    - develop
+
+jobs:
+  styles:
+    runs-on: ubuntu-18.04
+    name: Linting
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v1
+      - uses: whynothugo/python-linting@master:wq
